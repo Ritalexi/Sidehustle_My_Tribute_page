@@ -1,0 +1,23 @@
+body
+{
+    background-color: bisque;
+    margin: 0px 50px 0px 50px;
+}
+h1
+{
+text-align: center;
+}
+img
+{
+height: 400px;
+width: 300px;
+object-fit: cover;
+margin-left: 38%;
+}
+@media (max-width: 375px)
+{
+    img 
+    {
+        margin-left: auto;
+    }
+}
